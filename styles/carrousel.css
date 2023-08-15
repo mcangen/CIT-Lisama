@@ -1,0 +1,25 @@
+.carrousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carouselExampleControls{
+    height: 300px !important;
+    width: 100%;
+    margin: 0 15px 0 15px;
+    border-radius: 15px;
+}
+#carouselExampleControls img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%);
+}
+.egresados{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 25px !important;
+}
