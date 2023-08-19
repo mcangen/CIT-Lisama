@@ -1,7 +1,11 @@
 .menu:hover{
     filter: grayscale(0);
 }
-a:hover{
-        text-decoration: underline;
+/*a:hover{
+        text-decoration: underline rgb(44, 207, 11) 2px;
         color: Black !important;
+        transition: 1s;
+}*/
+h1:hover{
+    border: 3px solid rgb(44, 207, 11);
 }

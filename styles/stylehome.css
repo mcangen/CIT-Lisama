@@ -8,7 +8,7 @@
 }
 body{
     background-color: rgb(136, 134, 134) !important;
-    /*background-color: white !important;*/
+    background-color: white !important;
   }
 
 ::-webkit-scrollbar {
@@ -20,7 +20,8 @@ header{
     width: 100%;
     height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /*justify-content: space-between;*/
 
 }
 h1{
@@ -32,6 +33,11 @@ h1{
     margin-inline-end: 0px !important;
     font-weight: bold !important;
     color: black !important;
+    padding: 3px 3px;
+    border-color: rgb(44, 207, 11);
+    border-radius: 10px;
+    transition: all 2s;
+
 }
 header .tittle{
     font-weight: 800;
@@ -65,10 +71,10 @@ header .HeaderMenu{
 }
 .menu{
     background-color: rgb(90, 90, 90);
-    background-image: url(/img/imghome.jpg);
+    background-image: url(/img/imghomeirl.jpeg);
     background-image: cover;
     background-position: center;
-    height: 560px;
+    height: 550px;
     width: 1250px;
     margin: 5px 0 0 ;
     border-radius: 30px;
@@ -77,11 +83,15 @@ header .HeaderMenu{
     justify-content: center;
     font-size: 80px;
     font-weight: 500;
+    text-align: center;
     color: white;
     filter: grayscale(1);
-    transition:  all 4s;
+    transition: 4s;
 }
 .menu a{
+    font-weight: 600 !important;
+}
+.menu p{
     font-weight: 600 !important;
 }
 /*HR HR HR*/
@@ -94,7 +104,7 @@ header .HeaderMenu{
     padding: 0 30px;
     border: none;
     border-bottom: black 2px solid;
-    border-bottom: rgb(34, 146, 11) 2px solid !important;
+    border-bottom: rgb(44, 207, 11) 2px solid !important;
     height: .5px;
     width: 500px;
 }
@@ -103,6 +113,7 @@ header .HeaderMenu{
     margin: 15px 0 0;
     text-align: center;
     font-size: 20px;
+    color: black !important;;
 }
 /*Los 3 cuadros*/
 .ContainerCuadros{
@@ -114,11 +125,12 @@ header .HeaderMenu{
     
     height: 350px;
     width: 350px;
-    border: 3px solid rgb(34, 146, 11);
+    border: 3px solid rgb(44, 207, 11);
     /*background-color: rgb(173, 179, 179)*/;
     padding: 15px 15px;
     border-radius: 15px;
     text-align: center;
+    color: black !important;
 }
 
 .icon{
@@ -146,15 +158,17 @@ header .HeaderMenu{
     
     
 }
+
 .InfoLiceo{
     background-color: rgba(173, 179, 179, 0);
     height: 450px;
     width: 500px;
     border-radius: 15px 0 0 15px  ;
     padding: 15px ;
-    border-top: 3px solid rgb(34, 146, 11) !important;
-    border-bottom: 3px solid rgb(34, 146, 11) !important;
-    border-left: 3px solid rgb(34, 146, 11) !important;
+    border-top: 3px solid rgb(44, 207, 11) !important;
+    border-bottom: 3px solid rgb(44, 207, 11) !important;
+    border-left: 3px solid rgb(44, 207, 11) !important;
+    color: black !important;
 }
 .InfoLiceo b{
     font-size: 30px;
@@ -171,9 +185,9 @@ header .HeaderMenu{
     height: 450px;
     width: 500px;
     border-radius: 0 15px 15px 0;
-    border-top: 3px solid rgb(34, 146, 11) !important;
-    border-bottom: 3px solid rgb(34, 146, 11) !important;
-    border-right: 3px solid rgb(34, 146, 11) !important;
+    border-top: 3px solid rgb(44, 207, 11) !important;
+    border-bottom: 3px solid rgb(44, 207, 11) !important;
+    border-right: 3px solid rgb(44, 207, 11) !important;
 }
 /*link sobre el liceo */
 .buton{
@@ -200,7 +214,7 @@ footer{
 .HrFooter{
     border: none;
     border-bottom: 2px black solid;
-    border-bottom: 2px rgb(34, 146, 11) solid !important;
+    border-bottom: 2px rgb(44, 207, 11) solid !important;
     width: 550px;
 }
 .IconFooter{
