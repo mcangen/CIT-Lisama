@@ -71,7 +71,7 @@ header .HeaderMenu{
 }
 .menu{
     background-color: rgb(90, 90, 90);
-    background-image: url(/img/imghomeirl.jpeg);
+    background-image: url(../img/imghomeirl.jpeg);
     background-image: cover;
     background-position: center;
     height: 550px;
@@ -179,7 +179,7 @@ header .HeaderMenu{
 }
 .ImgLiceo{
     background-color: rgb(90, 90, 90);
-    background-image: url(/img/escudo-piso.jpg);
+    background-image: url(../img/escudo-piso.jpg);
     background-image: cover;
     background-position: center;
     height: 450px;
