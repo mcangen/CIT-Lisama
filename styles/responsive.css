@@ -36,6 +36,15 @@
         border-left:3px solid rgb(44, 207, 11) ;
         height: 250px !important;
     }
+    #NoMobile{
+        display: none;
+    }
+    .hr div{
+        width: 350px;
+    }
+    .HrFooter{
+        border-radius: 100%;
+    }
 }
 /*Responsive Laptop*/
 @media (max-width: 1024px){
@@ -44,7 +53,7 @@
     }
 }
 /*Responsive tablet*/
-@media (min-width: 426px){
+@media screen and (min-width: 426px) and (min-width: 768px){
     /*.cuadros{
         height: 480px !important;
     }*/
