@@ -1,3 +1,4 @@
+/*Responsive Mobile*/
 @media (max-width:425px) {
     .header{
         width: 100%;
@@ -15,7 +16,7 @@
         
     }
     .cuadros{
-        margin: 12px 0 5px;
+        margin: 12px 0 5px !important;
     }
     .AboutLiceo{
         display: flex;
@@ -33,6 +34,28 @@
         border-top: none !important;
         border-radius: 0px 0px 15px 15px !important ;
         border-left:3px solid rgb(44, 207, 11) ;
-        height: 250px;
+        height: 250px !important;
+    }
+}
+/*Responsive Laptop*/
+@media (max-width: 1024px){
+    .cuadros{
+        margin: 0 10px ;
+    }
+}
+/*Responsive tablet*/
+@media (min-width: 426px){
+    /*.cuadros{
+        height: 480px !important;
+    }*/
+    .AboutLiceo{
+        height: 550px;
+    }
+    .InfoLiceo{
+        height: 550px;
+
+    }
+    .ImgLiceo{
+        height: 550px;
     }
 }

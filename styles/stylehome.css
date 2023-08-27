@@ -36,6 +36,8 @@ h1{
     border-color: rgb(44, 207, 11);
     border-radius: 10px;
     transition: all 2s;
+    user-select: none;
+
 
 }
 header .tittle{
@@ -86,6 +88,8 @@ header .HeaderMenu{
     color: white;
     filter: grayscale(1);
     transition: 4s;
+    user-select: none;
+
 }
 .menu a{
     font-weight: 600 !important;
@@ -122,7 +126,7 @@ header .HeaderMenu{
 }
 .cuadros{
     
-    height: 350px;
+    height: 350px !important;
     width: 350px;
     border: 3px solid rgb(44, 207, 11);
     /*background-color: rgb(173, 179, 179)*/;
