@@ -16,7 +16,6 @@ body{
 }
 /*Header*/
 header{
-    
     width: 100%;
     height: 70px;
     display: flex;
@@ -302,3 +301,8 @@ footer p{
 }*/
 
 /*las redes del cit*/
+.comming{
+    display: flex;
+    justify-content: center;
+
+}
