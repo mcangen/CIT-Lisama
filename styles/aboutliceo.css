@@ -1,0 +1,58 @@
+/*Cuadro liceo samario*/
+.AboutLiceo{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.InfoLiceo{
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 10%, rgba(16,255,0,1) 99%);
+    height: 600px;
+    width: 500px;
+    border-radius: 15px 0 0 15px !important;
+    padding: 15px;
+    color: #014101 !important;
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+}
+.hoverliceo{
+    padding: 5px;
+    background-color: #43a93b;
+    border-radius: 15px;
+}
+.InfoLiceo b{
+    font-size: 30px;
+}
+.InfoLiceo p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.ImgLiceo{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/escudo-piso.jpg);
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 500px;
+    border-radius: 0 15px 15px 0;
+}
+.hoverliceo{
+    display: flex;
+    transition: 2s;
+}
+/*link sobre el liceo */
+.buton{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border: rgb(44, 207, 11) 2px solid;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 15px 0 15px 0 ;
+    color: black;
+}

@@ -1,0 +1,82 @@
+/*CAMBIO DE LOGO*/
+.changesIcon div{
+    /* border: 1px solid black;*/
+     height: 400px;
+     width: 520px;
+     margin: 0 5px;
+     object-fit: cover;
+ }
+ .changesIcon{
+     height: 398px;
+     /*border: 1px solid black;*/
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-bottom: #92e27a 3px solid !important ;
+ 
+ }
+ .infochanges{
+     width: 250px !important;
+     border: none;
+     border-right: #92e27a 3px solid !important;
+     border-left: #92e27a 3px solid !important;
+ }
+ 
+ .tittlechange{
+     width: 100%;
+     text-align: center;
+     padding: 0;
+ }
+ .tittlechange b{
+     font-size: 30px;
+     color: #014101;
+ }
+ #iconhr div{
+     margin: 2px;
+     padding: 0;
+ }
+ #textInfo{
+     width: 240px;
+     height: 300px;
+     text-align: center;
+     display: grid;
+     place-items: center;
+     font-size: 18px
+ 
+ }
+ #TittleInfo{
+     width: 220px;
+     height: auto;
+     margin: 5px 8px;
+     text-align: center;
+     font-size: 22px;
+     color: #014101;
+ }
+ .textInfo ul{
+     margin: 0 8px;
+     padding: 0;
+ }
+ .textInfo{
+     width: 250px;
+ }
+ .textInfo li{
+     list-style: none;
+ }
+ .ImageLogo{
+     text-align: center;
+     display: grid;
+     place-items: center;
+ }
+ .ImageLogo p{
+     border: none;
+     border-bottom: 3px solid #92e27a;
+     border-left: 3px solid #92e27a;
+     border-right: 3px solid #92e27a;
+     width: 200px;
+     border-radius: 0 0 15px 15px;
+     color: #014101;
+ }
+ #iconhr div{
+     border-bottom: 3px #92e27a solid !important ;
+ }

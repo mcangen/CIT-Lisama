@@ -1,0 +1,83 @@
+/*Los 3 cuadros*/
+.ContainerCuadros{
+    margin: 15px 0 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.cuadros{
+    height: 380px !important;
+    width: 380px;
+    /*background-color: rgb(173, 179, 179)*/;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #43a93b;
+    color: #014101;
+    transition: -webkit-box-shadow 3s;
+    transition: translate 1s;
+
+}
+.backgroundcuadro{
+    background-color: #92e27a;
+    border-radius: 15px;
+    height: 100%;
+
+}
+.cuadros b{
+    color: #014101 !important;
+    font-size: 18px;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gg-info{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 30px;
+   }
+   
+   .gg-info::after,
+   .gg-info::before{
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    background: currentColor;
+    left: 7px
+   }
+   
+   .gg-info::after {
+    bottom: 2px;
+    height: 8px
+   }
+   
+   .gg-info::before {
+    height: 2px;
+    top: 2px
+   } 
+
+.ContainerIcon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.cuadros p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

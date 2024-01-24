@@ -1,0 +1,100 @@
+/*Icfes, ingles, programacion, etc*/
+.TittleArea{
+    text-align: center;
+    color: #014101;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ourActivies{
+    border: none;
+    height: 400px;
+    width: 100;
+    margin: 0 50px 0 50px;
+    padding: 5px;
+    display: flex;
+    
+}
+.activies{
+    border: none;
+    width: 70%;
+    border-radius: 15px;
+    padding: 15px;
+    margin-right: 10px; 
+    background-color: #43a93b;
+    
+}
+.flexActivie{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.activiProyect{
+    width: 30%;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: #43a93b;
+    border: none;
+}
+.CardactivieOne{
+    border: 1px solid black;
+    height: 250px;
+    width: 170px;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #92e27a;
+    border: none;
+    transition: -webkit-box-shadow 1s;
+    transition: translate  1s;
+
+}
+.CardactivieTwo{
+    border: 1px solid black;
+    height: 200px;
+    width: 170px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #92e27a;
+    border: none;
+    transition: -webkit-box-shadow  1s;
+    transition: translate  1s;
+
+}
+.CardactivieOne img{
+    width: 156px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.CardactivieTwo img{
+    width: 140px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageActivitie{
+    height: 80%;
+    filter: hue-rotate(120deg);
+}
+.infoActivitie{
+    text-align: center;
+    color: #014101;
+}
+.activiProyect{
+    padding: 15px;
+}
+.infoProyect{
+    height: 100%;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #92e27a;
+    transition: -webkit-box-shadow  2s;
+    transition: translate  1s;
+}
+#proyect{
+    width: 100%;
+    height: 100%;
+}

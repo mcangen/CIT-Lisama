@@ -1,11 +1,44 @@
 .menu:hover{
     filter: grayscale(0);
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+    transition: 2s;
 }
-/*a:hover{
+
+a:hover{
         text-decoration: underline rgb(44, 207, 11) 2px;
         color: Black !important;
-        transition: 1s;
-}*/
-h1:hover{
-    border: 3px solid rgb(44, 207, 11);
+        transition: .5s;
 }
+.cuadros:hover{
+    translate: 0px -10px;
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+}
+.CardactivieOne:hover{
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+    translate: 0px -10px;
+
+}
+.CardactivieTwo:hover{
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+    translate: 0px -10px;
+}
+.infoProyect:hover{
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+    transition: .3s;
+}
+.videoscitinfo iframe:hover{
+    box-shadow: 8px -3px 49px 3px #92e27a;
+    -webkit-box-shadow: 8px -3px 49px 3px #92e27a;
+    -moz-box-shadow: 8px -3px 49px 3px #92e27a;
+}
+

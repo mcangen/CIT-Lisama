@@ -21,6 +21,15 @@
     display: flex;
     justify-content: center;
     font-weight: 600;
-    font-size: 25px !important;
-    color: black !important;
+    font-size: 30px !important;
+    color: #92e27a !important;
+}
+.videoscitinfo{
+    display: grid;
+    place-items: center;
+    margin: 10px 0;
+}
+.videoscitinfo iframe{
+    border-radius: 15px;
+    transition: -webkit-box-shadow .5s ;
 }
