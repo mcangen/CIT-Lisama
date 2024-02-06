@@ -2,14 +2,14 @@
 .AboutLiceo{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    /*height: 100vh;*/
     
 }
 
 .InfoLiceo{
     background: rgb(255,255,255);
     background: linear-gradient(270deg, rgba(255,255,255,1) 10%, rgba(16,255,0,1) 99%);
-    height: 600px;
+    /*height: 600px;*/
     width: 500px;
     border-radius: 15px 0 0 15px !important;
     padding: 15px;
@@ -27,7 +27,7 @@
     font-size: 30px;
 }
 .InfoLiceo p{
-    margin-top: 40px;
+    /*margin-top: 40px;*/
     margin-bottom: 30px;
     font-size: 18px;
 }
@@ -37,7 +37,7 @@
     background-image: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    /*height: 600px;*/
     width: 500px;
     border-radius: 0 15px 15px 0;
 }

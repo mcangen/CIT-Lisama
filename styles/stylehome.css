@@ -13,8 +13,7 @@ Titulos y negritas: #014101
 body{
     /*background-color: rgb(85, 83, 83) !important;
     background-color: white!important;*/
-    background: rgb(11,170,6);
-background: linear-gradient(360deg, rgba(11,170,6,1) 15%, rgba(0, 0, 0, 0.788) 83%);
+    background: rgb(255, 255, 255);
   }
 
 ::-webkit-scrollbar {
@@ -87,10 +86,10 @@ header .HeaderMenu{
     background-image: url(../img/imghomeirl.jpeg);
     background-image: cover;
     background-position: center;
-    height: 100vh;
-    width: 1250px;
-    margin: 5px 0 0 ;
-    border-radius: 30px;
+    /*height: 100vh;*/
+    width: 100%;
+    /*margin: 5px 0 0 ;
+    border-radius: 30px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,8 +144,8 @@ footer{
 }
 .HrFooter{
     border: none;
-    border-bottom: 2px black solid;
-    border-bottom: #18380e 3px solid !important;
+    border-bottom: 2px #6fff43 solid;
+    border-bottom: #6fff43 3px solid !important;
     width: 550px;
 }
 .IconFooter{

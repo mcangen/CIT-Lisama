@@ -4,10 +4,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    flex-wrap: wrap;
+    gap: 15px;
+    /*height: 100vh;*/
 }
 .cuadros{
-    height: 380px !important;
+    /*height: 380px !important;*/
+    /*min-height: 380px;*/
     width: 380px;
     /*background-color: rgb(173, 179, 179)*/;
     padding: 15px 15px;
@@ -80,4 +83,7 @@
 .cuadros p{
     margin-top: 10px;
     margin-bottom: 15px;
+    font-size: 14px;
+    padding: 9px;
+    text-align: left;
 }
